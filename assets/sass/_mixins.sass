@@ -1,0 +1,31 @@
+@mixin gradientText()
+    background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    text-fill-color: transparent
+
+@mixin gradientBorderElem($radius)
+    position: relative
+    border-radius: $radius
+    transition: all .3s ease
+    
+
+@mixin gradientBorderBefore($radius)
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    padding: 1px
+    border-radius: $radius
+    background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
+    -webkit-mask: linear-gradient(#fff 0, #fff 0) content-box,linear-gradient(#fff 0, #fff 0)
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0)
+    -webkit-mask-composite: xor
+    mask-composite: exclude
+    
+@mixin hoverBtn()
+    filter: brightness(1.3)
+    
