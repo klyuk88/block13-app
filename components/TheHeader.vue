@@ -132,7 +132,7 @@
               </div>
 
               <div class="mob_account_wrap_row">
-                <span><a target="_blank" href="#">Тех. поддержка</a></span>
+                <span><a target="_blank" href="https://t.me/RobertR13">Тех. поддержка</a></span>
                 <span>|</span>
                 <span
                   ><a href="!#" @click.prevent="logout" class="logout_link"
