@@ -7,8 +7,8 @@
           <div class="profile-btns">
             <div class="balance">
               <span class="balance-title">Мой баланс:</span>
-              <div class="balance-count" @click="topBalance" v-if="user">
-                <span class="balance-num">$ {{ user.balance / 100 }}</span>
+              <div class="balance-count" @click="topBalance">
+                <span class="balance-num" v-if="user.balance">$ {{ user.balance / 100 }}</span>
                 <span class="topup">Пополнить</span>
               </div>
             </div>
@@ -18,7 +18,7 @@
               class="restore-balance profile-icon"
               @click.prevent="refreshBalance"
             >
-              <img src="~/assets/img/refresh-icon.svg" alt=""/>
+              <img src="~/assets/img/refresh-icon.svg" alt="" :class="{'refreshBalanceAnim': refreshBalanceAnim}" />
             </a>
             <a
               title="Настройки"
@@ -93,11 +93,18 @@ export default {
       currentIndex: 0,
       lineActive: "left",
       balanceBtn: true,
+      refreshBalanceAnim: false
     };
   },
   methods: {
-    refreshBalance() {
-      this.$store.dispatch("login/user");
+    async refreshBalance() {
+      this.refreshBalanceAnim = true
+      await this.$store.dispatch("login/user");
+      setTimeout(() => {
+        this.refreshBalanceAnim = false
+      }, 1000);
+      
+      
     },
     topBalance() {
       this.$store.commit("popup/openTopBalanceTg");

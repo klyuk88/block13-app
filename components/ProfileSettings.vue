@@ -31,6 +31,17 @@
             id="form-register-form"
             novalidate
           >
+          <p class="user-id-warp-title">Ваш ID</p>
+          <div class="user-id-warp">
+          <FormInput
+            type="text"
+            :readOnly="true"
+            v-model="userId"
+            />
+            <img src="~/assets/img/copy.svg" alt="" class="user-id-warp-copy-icon" v-clipboard:copy="userId" v-clipboard:success="clipboardSuccessHandler" :class="{copied: isCopied}">
+            </div>
+           
+
             <FormInput
               :placeHolder="'E-mail'"
               :type="'email'"
@@ -121,6 +132,8 @@ export default {
   components: { SaccessMessage },
   data() {
     return {
+      isCopied: false,
+      userId: this.$store.state.login.user['additionalId'],
       saccessMessage: null,
       notification: `Редактирование учетной записи. Нажмите на любой раздел, чтобы начать редактирование.`,
       saveEmail: false,
@@ -138,6 +151,9 @@ export default {
     };
   },
   methods: {
+    clipboardSuccessHandler() {
+      this.isCopied = true
+    },
     async changePassword() {
       await this.$store.dispatch('login/changePassword', {
         newPassword: this.newPassword,
@@ -189,6 +205,7 @@ export default {
     closePop() {
       this.$store.commit("closeSettings");
       this.$store.commit('login/clearErrors')
+      this.isCopied = false
     },
   },
   watch: {

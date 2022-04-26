@@ -102,7 +102,6 @@
   grid-template-columns: 1fr 1fr 1fr
   column-gap: 80px
 
-
 .profile_course_block_count_days
   display: flex
   align-items: center
@@ -153,7 +152,6 @@
   margin-top: 120px
   @media screen and ( max-width: 960px )
     margin-top: 50px
-
 
 .profile_video_lessons
   margin-top: 100px
@@ -222,328 +220,317 @@
   .blocked_overlay
     display: flex
 
-
 .profile_course_block__btn
-    border-radius: 18px
-    height: 50px
-    display: flex
-    align-items: center
-    justify-content: center
+  border-radius: 18px
+  height: 50px
+  display: flex
+  align-items: center
+  justify-content: center
 
 .live_trading__title
-    text-transform: uppercase
-    font-weight: 600
-    font-size: 18px
-    margin: 0
-    padding: 0
+  text-transform: uppercase
+  font-weight: 600
+  font-size: 18px
+  margin: 0
+  padding: 0
 
 .live_trading__about
-    font-size: 15px
-    font-weight: 500
-    color: #8F8E90
-    line-height: 1.5
-    margin-top: 10px
+  font-size: 15px
+  font-weight: 500
+  color: #8F8E90
+  line-height: 1.5
+  margin-top: 10px
 
 .live_trading__current
-    font-size: 14px
-    font-weight: 700
-    margin-top: 20px
-    color: rgba(255, 255, 255, 0.3)
-    span
-        color: #fff
+  font-size: 14px
+  font-weight: 700
+  margin-top: 20px
+  color: rgba(255, 255, 255, 0.3)
+  span
+    color: #fff
 
 .live_trading__link
-    width: 100%
-    background: #2D2D2F
-    border: 1px solid #575759
-    border-radius: 23px
-    padding: 20px 32px
-    color: #fff
-    line-height: 1
-    transition: all .3s ease
+  width: 100%
+  background: #2D2D2F
+  border: 1px solid #575759
+  border-radius: 23px
+  padding: 20px 32px
+  color: #fff
+  line-height: 1
+  transition: all .3s ease
 
 .live_trading__link::placeholder
-    color: #575759
-    text-transform: uppercase
-    font-size: 14px
-    font-weight: 700
+  color: #575759
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: 700
 
 .live_trading_link_wrap
-    margin-top: 80px
+  margin-top: 80px
 
 .live_trading_link__btn
-    position: absolute
-    display: flex
-    align-items: center
-    justify-content: center
-    right: 0
-    padding: 10px 32px
-    color: #969696
-    text-transform: uppercase
-    font-size: 14px
-    font-weight: 700
-    top: 50%
-    transform: translateY(-50%)
-    cursor: pointer
-    border-left: 1px solid #575759
-    transition: all .1s ease
+  position: absolute
+  display: flex
+  align-items: center
+  justify-content: center
+  right: 0
+  padding: 10px 32px
+  color: #969696
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: 700
+  top: 50%
+  transform: translateY(-50%)
+  cursor: pointer
+  border-left: 1px solid #575759
+  transition: all .1s ease
 
 .live_trading_link__btn:hover
-    filter: brightness(1.1)
+  filter: brightness(1.1)
 
 .live_trading_link_wrap.active
-    .live_trading__link
-        border-color: #B2854D
+  .live_trading__link
+    border-color: #B2854D
     .live_trading_link__btn
-        background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
-        background-clip: text
-        text-fill-color: transparent
-        border-color: #B2854D
+      background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+      background-clip: text
+      text-fill-color: transparent
+      border-color: #B2854D
 
 .live_trading_link_wrap
-    position: relative
-
+  position: relative
 
 .profile_video_lessons_grid_mob
-    display: grid
-    margin-top: 32px
-    grid-template-columns: 1fr
-    row-gap: 8px
-    width: 100%
-    display: none
-
+  display: grid
+  margin-top: 32px
+  grid-template-columns: 1fr
+  row-gap: 8px
+  width: 100%
+  display: none
 
 .profile_video_lessons_grid_mob_item
-    width: 100%
-    display: flex
-    align-items: center
-    justify-content: space-between
-    border-radius: 2px
-    background: #282729
-    padding: 15px
-    border: 1px solid transparent
-    transition: all .2s ease
-    span
-        font-size: 14px
-        font-weight: 400
-        color: #fff
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border-radius: 2px
+  background: #282729
+  padding: 15px
+  border: 1px solid transparent
+  transition: all .2s ease
+  span
+    font-size: 14px
+    font-weight: 400
+    color: #fff
 
 .swiper-container
-    display: none
-    margin-top: 60px
-    @media (max-width: 960px)
-        display: block
+  display: none
+  margin-top: 60px
+  @media (max-width: 960px)
+    display: block
     @media (max-width: 576px)
-        margin-top: 24px
-
-
+      margin-top: 24px
 
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active
-    background: #fff!important
+  background: #fff!important
 
 #beginner-page
-    background: #1B1A1B
+  background: #1B1A1B
 .video-pop-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 200
+  background: rgba(24, 24, 24, 0.9)
+  .video-pop
     position: fixed
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    z-index: 200
-    background: rgba(24, 24, 24, 0.9)
-    .video-pop
-        position: fixed
-        left: 50%
-        top: 50%
-        transform: translate(-50%, -50%)
-        background: #fff
-        max-width: 700px
-        width: 700px
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    background: #fff
+    max-width: 700px
+    width: 700px
+    @media (max-width: 450px)
+      max-width: 90%
+      width: 90%
+      .video-pop-close
+        position: absolute
+        top: -25px
+        right: 0
+        font-size: 25px
+        cursor: pointer
         @media (max-width: 450px)
-            max-width: 90%
-            width: 90%
-        .video-pop-close
-            position: absolute
-            top: -25px
-            right: 0
-            font-size: 25px
-            cursor: pointer
-            @media (max-width: 450px)
-                font-size: 15px
-                top: -20px
-                right: 0
+          font-size: 15px
+          top: -20px
+          right: 0
 
 .beginner-header
-    padding-top: 80px
-    position: relative
-    z-index: 10
-    @media screen and ( max-width: 576px )
-      padding-bottom: 0
-
-
+  padding-top: 80px
+  position: relative
+  z-index: 10
+  @media screen and ( max-width: 576px )
+    padding-bottom: 0
 
 .beginner-header__title
-    font-size: 48px
-    font-weight: 900
-    color: #fff
-    text-align: left
-    margin-top: 162px
-    text-shadow: 0px 0px 44px rgba(189, 190, 225, 0.6)
-    @media screen and ( max-width: 960px )
-      margin-top: 0
-
+  font-size: 48px
+  font-weight: 900
+  color: #fff
+  text-align: left
+  margin-top: 162px
+  text-shadow: 0px 0px 44px rgba(189, 190, 225, 0.6)
+  @media screen and ( max-width: 960px )
+    margin-top: 0
 
 .beginner-content__title
-    font-size: 14
-    font-weight: 600
-    padding: 8px 22px
-    color: #fff
-    display: inline-block
-    background-color: #282729
+  font-size: 14
+  font-weight: 600
+  padding: 8px 22px
+  color: #fff
+  display: inline-block
+  background-color: #282729
 
 .beginner-content
-    display: grid
-    width: 100%
-    grid-template-columns: 1fr 522px
-    column-gap: 150px
-    padding-bottom: 200px
-    @media (max-width: 960px)
-        grid-template-columns: 100%
-        row-gap: 100px
-        padding-bottom: 50px
+  display: grid
+  width: 100%
+  grid-template-columns: 1fr 522px
+  column-gap: 150px
+  padding-bottom: 200px
+  @media (max-width: 960px)
+    grid-template-columns: 100%
+    row-gap: 100px
+    padding-bottom: 50px
     @media screen and ( max-width: 576px )
       row-gap: 90px
       padding-bottom: 0
 
-
 .beginner-content-helps-items
-    margin-top: 12px
-    @media (max-width: 960px)
-        display: none
+  margin-top: 12px
+  @media (max-width: 960px)
+    display: none
 
 .beginner-content-helps-item
-    padding: 20px 38px
-    background: #282729
-    transition: box-shadow .3s ease
-    margin-bottom: 24px
-    position: relative
-    z-index: 10
+  padding: 20px 38px
+  background: #282729
+  transition: box-shadow .3s ease
+  margin-bottom: 24px
+  position: relative
+  z-index: 10
 
-    @media screen and ( max-width: 960px )
-      padding: 58px 24px
-      min-height: 250px
+  @media screen and ( max-width: 960px )
+    padding: 58px 24px
+    min-height: 250px
     @media screen and ( max-width: 576px )
       padding: 58px 24px
       min-height: 376px
 
     &__about
-        color: #8F8E90
-        font-size: 15px
-        line-height: 150%
-        font-weight: 500
-        margin-top: 10px
+      color: #8F8E90
+      font-size: 15px
+      line-height: 150%
+      font-weight: 500
+      margin-top: 10px
     &__title
-        font-weight: 600
-        line-height: 140%
-        text-transform: none
-        font-size: 18px
+      font-weight: 600
+      line-height: 140%
+      text-transform: none
+      font-size: 18px
 
 .beginner-content-helps-item:last-child
-    margin-bottom: 0
+  margin-bottom: 0
 
 .beginner-content-steps-item-btns
-    display: flex
-    align-items: center
-    justify-content: center
-    margin-top: 20px
-    @media screen and ( max-width: 576px )
-      flex-direction: column
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-top: 20px
+  @media screen and ( max-width: 576px )
+    flex-direction: column
     a
       @media screen and ( max-width: 576px )
         width: 100%
     &__btn-white, &__btn-black
-        padding: 12px 0
-        background: #EFEFEF
-        border-radius: 20px
-        display: flex
-        align-items: center
-        justify-content: center
-        width: 144px
-        cursor: pointer
-        @media screen and ( max-width: 576px )
-          width: 100%
+      padding: 12px 0
+      background: #EFEFEF
+      border-radius: 20px
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 144px
+      cursor: pointer
+      @media screen and ( max-width: 576px )
+        width: 100%
     &__btn-black
-        background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%)
-        margin-left: 30px
-        @media screen and ( max-width: 576px )
-          margin: 0
-          margin-top: 15px
+      background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%)
+      margin-left: 30px
+      @media screen and ( max-width: 576px )
+        margin: 0
+        margin-top: 15px
 
 .beginner-content-steps-item
-    padding: 40px 70px
-    background: #282729
-    margin-top: 12px
-    transition: all .3s ease
-    border: 1px solid transparent
-    position: relative
-    z-index: 10
-    @media screen and ( max-width: 576px )
-      padding: 24px
-
+  padding: 40px 70px
+  background: #282729
+  margin-top: 12px
+  transition: all .3s ease
+  border: 1px solid transparent
+  position: relative
+  z-index: 10
+  @media screen and ( max-width: 576px )
+    padding: 24px
 
     &__about
-        color: #8F8E90
-        font-size: 15px
-        line-height: 150%
-        font-weight: 500
-        margin-top: 10px
+      color: #8F8E90
+      font-size: 15px
+      line-height: 150%
+      font-weight: 500
+      margin-top: 10px
     &__title
-        font-weight: 600
-        line-height: 140%
-        text-transform: none
-        font-size: 18px
+      font-weight: 600
+      line-height: 140%
+      text-transform: none
+      font-size: 18px
 
 .beginner-content-steps-item:hover
-    box-shadow: 0px 35px 33px -13px rgba(0, 0, 0, 0.4)
-    border-color: #c8a882
-
+  box-shadow: 0px 35px 33px -13px rgba(0, 0, 0, 0.4)
+  border-color: #c8a882
 
 .beginner-video-lesson
-    background: #282729
-    padding: 6px
-    padding-left: 20px
-    display: flex
-    align-items: center
-    justify-content: space-between
-    margin-bottom: 8px
-    transition: box-shadow .3s ease
-    z-index: 1
-    &__title
-        font-size: 15px
-        font-weight: 500
-        line-height: 100%
+  background: #282729
+  padding: 6px
+  padding-left: 20px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  margin-bottom: 8px
+  transition: box-shadow .3s ease
+  z-index: 1
+  &__title
+    font-size: 15px
+    font-weight: 500
+    line-height: 100%
     &-btn
-        display: flex
-        align-items: center
-        justify-content: space-between
-        padding: 12px
-        width: 144px
-        border: 1px solid #3E3D3E
-        transition: all .1s ease
-        border-radius: 18px
-        cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding: 12px
+      width: 144px
+      border: 1px solid #3E3D3E
+      transition: all .1s ease
+      border-radius: 18px
+      cursor: pointer
     &-btn:hover
-        border-color: #fff
+      border-color: #fff
 
 .beginner-video-lesson:last-child
-    margin-bottom: 0
+  margin-bottom: 0
 
 .beginner-video-lessons
-    margin-top: 46px
-    position: relative
-    z-index: 1
+  margin-top: 46px
+  position: relative
+  z-index: 1
 
 .beginner-decor-2
   position: absolute
@@ -556,13 +543,11 @@
   @media screen and ( max-width: 960px )
     display: none
 
-
-
 .beginner-content-steps-links
-    margin-top: 120px
-    position: relative
-    @media screen and ( max-width: 960px )
-      display: none
+  margin-top: 120px
+  position: relative
+  @media screen and ( max-width: 960px )
+    display: none
 
 .beginner-content-steps-links.mob
   display: none
@@ -571,48 +556,43 @@
   @media screen and ( max-width: 576px )
     margin-top: 100px
 
-
-
 .beginner-content-steps-links-btn
-    font-size: 16px
-    font-weight: 800
-    display: flex
-    align-items: center
-    justify-content: flex-end
-    text-transform: uppercase
-    margin-top: 10px
-    cursor: pointer
-    img
-        margin-left: 15px
+  font-size: 16px
+  font-weight: 800
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  text-transform: uppercase
+  margin-top: 10px
+  cursor: pointer
+  img
+    margin-left: 15px
 
 .steps-links__title
+  background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  background-clip: text
+  font-weight: 700
+
+.beginner-content-steps-links-item
+  margin-bottom: 80px
+  position: relative
+  z-index: 10
+  @media screen and ( max-width: 768px )
+    margin-bottom: 48px
+
+.profile_course_block_arrow
+  display: none
+
+.profile_video_lessons_grid_mob_item.purchased
+  border-color: #B2854D
+  span
     background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
     background-clip: text
-    font-weight: 700
-
-.beginner-content-steps-links-item
-    margin-bottom: 80px
-    position: relative
-    z-index: 10
-    @media screen and ( max-width: 768px )
-      margin-bottom: 48px
-
-
-.profile_course_block_arrow
-    display: none
-
-.profile_video_lessons_grid_mob_item.purchased
-    border-color: #B2854D
-    span
-        background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
-        background-clip: text
-        text-fill-color: transparent
-
-
+    text-fill-color: transparent
 
 .mobile_menu_header
   display: flex
@@ -628,14 +608,12 @@
   .mobile_menu_header__logo
     width: 81px
 
-
 .mob_account_wrap
   position: absolute
   bottom: 30px
   width: 100%
   padding: 2rem
   z-index: 1
-
 
 .mob_account_wrap_row
   display: flex
@@ -649,7 +627,6 @@
 
 .mob_account_wrap_row:last-child
   margin-bottom: 0
-
 
 .header_login_account
   &_menu
@@ -682,7 +659,6 @@
   @media screen and ( max-width: 960px )
     display: none
 
-
 .header_login_info_wallet
   display: flex
   align-items: center
@@ -694,7 +670,6 @@
   &__pay
     font-size: 14px
     font-weight: 700
-
 
 .header_login_account
   list-style: none
@@ -714,20 +689,15 @@
   .header_login_account_menu
     display: block
 
-
 .header_login_account_item.header_logout_account a
   color: #FF4B4Bzxcv
-
-
 
 .settings_page
   background: linear-gradient(180deg, #181818 -6.87%, #1F1E21 100%)
   padding-bottom: 200px
 
-
 .settings_data_content
   width: 330px
-
 
 .settings_data_header
   display: flex
@@ -742,7 +712,6 @@
     text-transform: uppercase
     text-decoration: underline
     cursor: pointer
-
 
 .settings_data_header_form
   margin-top: 80px
@@ -772,12 +741,10 @@
     font-weight: 500
     color: #FF4B4B
 
-
 .settings_saved
   display: flex
   flex-direction: column
   align-items: flex-start
-
 
 .settings_data_header__edit_data.save
   margin-bottom: 20px
@@ -790,8 +757,6 @@
     grid-template-columns: 40% 60%
     column-gap: 0
 
-
-
 .beginner-content-steps
   display: flex
   flex-direction: column
@@ -799,7 +764,6 @@
   // position: relative
   @media screen and ( max-width: 576px )
     gap: 80px
-
 
 .beginner-video-lesson
   padding: 12px 14px
@@ -817,12 +781,10 @@
     @media screen and ( max-width: 576px )
       display: none
 
-
   img
     margin-right: 17px
     @media screen and ( max-width: 576px )
       margin-right: 0
-
 
 .beginner-video-lesson__title
   line-height: 150%
@@ -830,7 +792,6 @@
   @media screen and ( max-width: 576px )
     font-size: 14px
     font-weight: 400
-
 
 .beginner-content-step
   position: relative
@@ -846,7 +807,6 @@
   filter: blur(100px)
   @media screen and ( max-width: 960px )
     display: none
-
 
 .beginner_step_number
   position: absolute
@@ -864,11 +824,8 @@
   .beginner_step_number
     opacity: 1
 
-
-
 .beginner-video-lesson
   position: relative
-
 
 .beginner-decor-3
   position: absolute
@@ -880,10 +837,8 @@
   @media screen and ( max-width: 960px )
     display: none
 
-
 .beginner-body
   position: relative
-
 
 .decor-poligon
   position: absolute
@@ -901,11 +856,8 @@
   @media screen and ( max-width: 960px )
     display: none
 
-
-
 .header__inner #toggle
   justify-self: end
-
 
 .header
   z-index: 101
@@ -913,11 +865,9 @@
 .plyr:-webkit-full-screen video
   z-index: 110!important
 
-
 .beginner-content-helps
   @media screen and ( max-width: 960px )
     grid-row-start: 1
-
 
 .header__logo-link
   width: 76px
@@ -929,7 +879,6 @@
   right: 0
   @media screen and ( max-width: 960px )
     display: block
-
 
 .beginner-decor-mob-2
   display: none
@@ -949,7 +898,6 @@
   @media screen and ( max-width: 960px )
     display: block
 
-
 .beginner-decor-mob-4
   display: none
   position: absolute
@@ -957,7 +905,6 @@
   left: 0
   @media screen and ( max-width: 960px )
     display: block
-
 
 #register-form__window
   z-index: 10000
@@ -967,12 +914,8 @@
     width: 95%
     padding: 35px 20px!important
 
-
-
 #register-form__overlay
   z-index: 10000
-
-
 
 .beginner-header__title.profile
   font-size: 36px
@@ -980,7 +923,6 @@
   box-shadow: none
   text-shadow: none
   margin-top: 0
-
 
 .profile-header-content
   padding: 80px 0 120px 0
@@ -990,14 +932,11 @@
   @media screen and ( max-width: 960px )
     padding: 50px 0
 
-
 .profile-btns
   display: flex
   align-items: center
   @media screen and ( max-width: 960px )
     display: none
-
-
 
 .balance-title
   font-size: 18px
@@ -1024,13 +963,12 @@
   border-image-slice: 1
   span
     background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    text-fill-color: transparent
     font-size: 16px
     font-weight: 800
-
 
 .profile-icon
   width: 48px
@@ -1045,15 +983,12 @@
 .profile-icon:last-child
   margin-right: 0
 
-
 #profile_tabs_body
   margin-top: 150px
   // position: relative
   // z-index: 10
   @media screen and ( max-width: 960px )
     margin-top: 0
-
-
 
 .profile_course_block_about__text
   background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%)
@@ -1066,20 +1001,15 @@
   del
     color: grey
     background: none
-     -webkit-background-clip: none
+    -webkit-background-clip: none
     -webkit-text-fill-color: grey
     background-clip: none
     text-fill-color: none
-
-
-
 
 .lessons__left-bottom
   display: flex
   align-items: center
   justify-content: space-between
-
-
 
 .lesson_btn
   padding: 36px 40px
@@ -1103,7 +1033,7 @@
     font-weight: 700
 
 .lesson_btn:before
-    @include gradientBorderBefore(18px)
+  @include gradientBorderBefore(18px)
 
 .lesson_btn:hover
   filter: brightness(1.3)
@@ -1113,24 +1043,18 @@
   @media screen and ( max-width: 960px )
     width: 100%
 
-
-
 .lessons__desc-topic
   display: flex
 
 .lessons__desc-topic-name
   margin-right: 10px
 
-
 .block_content_icon
   position: relative
-
-
 
 .live_trading_grid
   max-width: 790px
   margin: 0 auto
-
 
 .profile-live-trading-btn
   padding: 13px 19px
@@ -1152,10 +1076,8 @@
 .profile-live-trading-btn:before
   @include gradientBorderBefore(18px)
 
-
 .profile-live-trading-btn:hover
   @include hoverBtn()
-
 
 .profile-tabs-bg
   position: absolute
@@ -1164,32 +1086,25 @@
   left: 0
   z-index: 1
 
-
 .profile-blocks
   position: relative
   z-index: 10
   @media screen and ( max-width: 960px )
     display: none
 
-
-
 .lessons__desc-parametres
   @media screen and ( max-width: 960px )
     flex-direction: column
     gap: 5px
 
-
-
 .profile-video-item-mob-lock
   width: 28px
   height: auto
-
 
 .profile_course_block.single
   display: none
   @media screen and ( max-width: 960px )
     display: flex
-
 
 .profile_tabs_body
   margin-top: 50px
@@ -1201,7 +1116,6 @@
   @media screen and ( max-width: 960px )
     grid-template-columns: 1fr 1fr
     row-gap: 60px
-
 
 .main-trigger
   text-align: center
@@ -1217,8 +1131,6 @@
     @media screen and ( max-width: 960px )
       font-size: 12px
 
-
-
 .main-trigger-title
   font-size: 72px
   font-weight: 800
@@ -1227,8 +1139,6 @@
   @include gradientText()
   @media screen and ( max-width: 960px )
     font-size: 36px
-
-
 
 .advantages__cards
   padding-top: 0
@@ -1241,7 +1151,6 @@
   @media screen and ( max-width: 960px )
     display: block
 
-
 .trigger-line
   width: 100%
   height: 1px
@@ -1252,8 +1161,6 @@
   background: linear-gradient(180deg, #333336 0%, #212124 100%)
   border: 1px solid #4D4B4F
   border-radius: 2px
-
-
 
 .connect-btn
   padding: 13px 44px
@@ -1271,7 +1178,6 @@
   @include hoverBtn()
 .connect-btn:before
   @include gradientBorderBefore(18px)
-
 
 .private-lines
   position: relative
@@ -1329,7 +1235,6 @@
     min-height: auto
     margin-bottom: 0
 
-
 .courses__item:hover
   background: #333336
   transition: all 0.2s ease-in
@@ -1360,7 +1265,6 @@
   left: 0
   object-fit: cover
 
-
 .advantages__card-inner
   @media screen and ( max-width: 960px )
     min-height: 350px
@@ -1378,10 +1282,8 @@
 .advantages__card.swiper-slide
   transition: transform .3s ease
 
-
 .advantages__card.swiper-slide.swiper-slide-active
   transform: translateY(-20px)
-
 
 .courses__btn
   text-transform: uppercase
@@ -1402,11 +1304,9 @@
     line-height: 150%
     font-weight: 400
 
-
 .intro
   @media screen and ( max-width: 576px )
     height: 600px
-
 
 .btn_instruction
   border: 1px solid #fff
@@ -1420,7 +1320,6 @@
 
 .instruction__offer
   text-align: center
-
 
 .academy-line
   width: 100%
@@ -1438,7 +1337,6 @@
     padding: 0
     padding-top: 80px
 
-
 .lessons__tabs
   display: grid
   grid-template-columns: 50% 50%
@@ -1451,17 +1349,14 @@
 .intro__title.section-title
   line-height: 130%
 
-
 .intro__video-btn
   @media screen and ( max-width: 576px )
     width: 50px
     margin: 50px auto
     margin-bottom: 200px
 
-
 #register-form__window
   padding: 54px 24px
-
 
 .saccess_alert_content
   text-align: center
@@ -1476,8 +1371,6 @@
   span
     @include gradientText()
 
-
-
 .register-form__title
   font-size: 24px
   line-height: 130%
@@ -1488,7 +1381,6 @@
 #register-form input
   width: 100%
 
-
 .lessons__wrapper
   gap: 12px
 
@@ -1497,14 +1389,12 @@
   @media screen and ( max-width: 960px )
     width: 100%
 
-
 .profile_video_lessons_grid_item.active
   border: 1px solid #F3D7AF
 
 .buy-pop-price
   font-size: 18px
   @include gradientText()
-
 
 .lesson_btn.mob-btn-buy
   display: none
@@ -1515,7 +1405,6 @@
 
 .btn_buy_check
   margin: 0 auto
-
 
 .profile-card-mob
   display: none
@@ -1573,13 +1462,11 @@
 .mob-nav-submenu.active
   display: block
 
-
 .intro
   height: 100vh
   position: relative
   @media screen and ( max-width: 960px )
     height: auto
-
 
 .footer__logo
   width: 240px
@@ -1587,19 +1474,17 @@
     width: 140px
 
 input::-webkit-credentials-auto-fill-button
-    visibility: hidden
-    pointer-events: none
-    position: absolute
-    right: 0
-
+  visibility: hidden
+  pointer-events: none
+  position: absolute
+  right: 0
 
 .info-pay-page
-    padding: 250px 0
-    color: #fff
-    background: #1b1a1b
-    text-align: center
-    height: 100vh
-
+  padding: 250px 0
+  color: #fff
+  background: #1b1a1b
+  text-align: center
+  height: 100vh
 
 .lesson_btn
   margin-top: 30px
@@ -1610,14 +1495,11 @@ input::-webkit-credentials-auto-fill-button
   @media screen and ( max-width: 960px )
     margin-bottom: 50px
 
-
 #register-form input[type="text"], #register-form input[type="password"]
   text-transform: none
 
-
 #register-form input[type="text"]::placeholder, #register-form input[type="password"]::placeholder
   text-transform: uppercase
-
 
 .lesson_btn
   del
@@ -1627,7 +1509,6 @@ input::-webkit-credentials-auto-fill-button
     -webkit-text-fill-color: grey
     background-clip: none
     text-fill-color: none
-
 
 .instruction
   padding: 50px 0
@@ -1661,7 +1542,6 @@ input::-webkit-credentials-auto-fill-button
   z-index: 2
   position: relative
 
-
 .video-pop-overlay
   z-index: 20
 
@@ -1690,22 +1570,88 @@ input::-webkit-credentials-auto-fill-button
 .live-trading-tab, .private-club-tab
   position: relative
   z-index: 20
-  
-.restore-balance img
-  width: 20px
-  height: 20px
-  transition: transform 1s ease
 
 .balance-top-subtitle
   line-height: 1.5
-
 
 .id-wrap
   display: flex
   align-items: center
   justify-content: center
-  img
-    width: 25px
-    height: auto
-    cursor: pointer
-    margin-left: 20px
+
+.id-wrap-icon
+  width: 25px
+  height: auto
+  cursor: pointer
+  margin-left: 20px
+  opacity: 0.3
+  transition: opacity .2s ease
+
+.profile_video_lessons_grid
+  row-gap: 30px
+
+.user-id-warp
+  position: relative
+
+.user-id-warp-copy-icon
+  position: absolute
+  right: 20px
+  top: 50%
+  transform: translateY(-50%)
+  width: 25px
+  height: auto
+  opacity: 0.3
+  cursor: pointer
+  transition: opacity .1s ease
+
+.user-id-warp-copy-icon.copied
+  opacity: 1
+
+.id-wrap-icon.copied
+  opacity: 1
+
+.user-id-warp-title
+  text-align: left
+  margin-bottom: 15px
+  font-weight: 700
+  font-size: 18px
+  padding-left: 10px
+
+
+.restore-balance img
+  width: 20px
+  height: auto
+
+
+.refreshBalanceAnim
+  -webkit-animation: rotating 2s linear infinite
+  -moz-animation: rotating 2s linear infinite
+  -ms-animation: rotating 2s linear infinite
+  -o-animation: rotating 2s linear infinite
+  animation: rotating 2s linear infinite
+
+@-webkit-keyframes rotating
+  from
+  -webkit-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+
+  to
+  -webkit-transform: rotate(360deg)
+  -o-transform: rotate(360deg)
+  transform: rotate(360deg)
+
+@keyframes rotating
+  from
+    -ms-transform: rotate(0deg)
+    -moz-transform: rotate(0deg)
+    -webkit-transform: rotate(0deg)
+    -o-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  to
+    -ms-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -webkit-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)

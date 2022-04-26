@@ -17,7 +17,7 @@
           <p class="balance-top-subtitle">
             Для пополнения кошелька, скопируйте ваш ID
           </p>
-          <div class="id-wrap"><h2 v-if="user">{{user.additionalId}}</h2><img src="~/assets/img/copy.svg" alt="" v-clipboard:copy="user.additionalId"></div>
+          <div class="id-wrap"><h2 v-if="user">{{user.additionalId}}</h2><img src="~/assets/img/copy.svg" alt="" v-clipboard:copy="user.additionalId" v-clipboard:success="clipboardSuccessHandler" :class="{'id-wrap-icon': true, copied: isCopied}"></div>
           
           <button id="register-form__btn-close" @click="closePop"></button>
         </div>
@@ -33,13 +33,18 @@ export default {
   data() {
     return {
         balance: null,
-        saccessMessage: null
+        saccessMessage: null,
+        isCopied: false
     };
   },
   methods: {
     closePop() {
       this.$store.commit("popup/closeBalanceTg");
+      this.isCopied = false
     },
+    clipboardSuccessHandler() {
+      this.isCopied = true
+    }
   },
   computed: {
     error() {
