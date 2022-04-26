@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="748px" height="748px" viewBox="0 0 748 748" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L748 0L748 748L0 748L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="copyblackinterfacesymboloftwopapersheets1_79801">
+    <path d="M0 0L748 0L748 748L0 748L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Group" transform="translate(68 0)">
+        <g id="Group">
+          <path d="M0 109.14L0 740.86C0 744.803 3.128 748 7.004 748L502.962 748C506.872 748 510 744.838 510 740.86L510 109.14C510 105.196 506.872 102 502.996 102L7.004 102C3.128 102 0 105.162 0 109.14L0 109.14Z" id="Shape" fill="#FFFFFF" stroke="none" />
+          <path d="M612 646L612 0L102 0L102 68L544 68L544 646L612 646Z" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

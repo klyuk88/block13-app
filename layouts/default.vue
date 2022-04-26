@@ -11,12 +11,17 @@
     <ProfileSettings v-if="profileSettingsShow" />
     <TopBalance v-if="topBalanceShow" />
     <BuyPopup v-if="buyPopup" />
+    <TopBalanceTg v-if="topBalanceTg" />
+    
   </div>
 </template>
 
 <script>
 export default {
   computed: {
+    topBalanceTg() {
+      return this.$store.state.popup.topBalanceTg
+    },
     token() {
       return this.$store.getters['login/getToken']
     },

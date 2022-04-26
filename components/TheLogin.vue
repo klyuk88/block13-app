@@ -76,6 +76,7 @@ export default {
       this.$store.commit("closeLogin");
     },
     async sendForm() {
+        // console.log(pwd);
         await this.$store.dispatch("login/login", this.inputs);
         if (!this.errorMessage) {
           this.inputs.email = null;

@@ -8,18 +8,32 @@
             <div class="balance">
               <span class="balance-title">Мой баланс:</span>
               <div class="balance-count" @click="topBalance" v-if="user">
-                <span class="balance-num">$ {{user.balance / 100}}</span>
+                <span class="balance-num">$ {{ user.balance / 100 }}</span>
                 <span class="topup">Пополнить</span>
               </div>
             </div>
             <a
+              title="Обновить баланс"
+              href="http://"
+              class="restore-balance profile-icon"
+              @click.prevent="refreshBalance"
+            >
+              <img src="~/assets/img/refresh-icon.svg" alt=""/>
+            </a>
+            <a
+              title="Настройки"
               href="!#"
               class="profile-settings profile-icon"
               @click.prevent="openSettings"
             >
               <img src="~/assets/img/profile/settings.svg" alt="" />
             </a>
-            <a href="https://t.me/RobertR13" class="profile-chat profile-icon" target="_blank">
+            <a
+              title="Тех поддержка"
+              href="https://t.me/RobertR13"
+              class="profile-chat profile-icon"
+              target="_blank"
+            >
               <img src="~/assets/img/profile/chat.svg" alt="" />
             </a>
           </div>
@@ -82,8 +96,11 @@ export default {
     };
   },
   methods: {
+    refreshBalance() {
+      this.$store.dispatch("login/user");
+    },
     topBalance() {
-      this.$store.commit('openBalance')
+      this.$store.commit("popup/openTopBalanceTg");
     },
     openSettings() {
       this.$store.commit("openSettings");
@@ -106,16 +123,15 @@ export default {
   },
   computed: {
     error() {
-      return this.$store.getters['login/getError']
+      return this.$store.getters["login/getError"];
     },
     user() {
-      return this.$store.getters['login/getUser']
-    }
+      return this.$store.getters["login/getUser"];
+    },
   },
   async mounted() {
-    await this.$store.dispatch('login/user')
+    await this.$store.dispatch("login/user");
   },
-
 };
 </script>
 
@@ -133,7 +149,6 @@ export default {
     transform: translate(-50%, -50%)
     opacity: 0
     transition: opacity .1s ease
-
 
 .balance-count:hover
   .balance-num

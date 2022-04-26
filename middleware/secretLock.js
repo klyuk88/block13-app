@@ -1,5 +1,9 @@
-export default ({store, redirect}) => {
-    if(!store.getters['login/getToken']) {
-        return redirect('/#login')
-    }
+export default ({
+  app,
+  store,
+  redirect,
+}) => {
+  if (!app.$cookies.get('ac_token')) {
+    return redirect('/#login')
+  }
 }

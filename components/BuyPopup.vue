@@ -69,6 +69,8 @@ export default {
         await this.$store.dispatch('login/user')
         await this.$store.dispatch('lessons/getCourse')
         await this.$store.dispatch("lessons/getLessons");
+        await this.$store.dispatch("lessons/getTelegramProduct");
+
         this.saccessMessage = 'Спасибо за покупку'
         
       } else {

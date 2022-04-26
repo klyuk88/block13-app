@@ -222,7 +222,7 @@ export default {
       this.$store.commit("openSettings");
     },
     openTopBalance() {
-      this.$store.commit("openBalance");
+      this.$store.commit("popup/openTopBalanceTg");
     },
     logout() {
       this.$store.commit("login/removeToken");
@@ -238,8 +238,10 @@ export default {
         this.mobMenu = false;
       }, 500);
     },
-    mobMenuShow() {
+    async mobMenuShow() {
+      await this.$store.dispatch('login/user')
       this.mobMenu = true;
+      
     },
     closeMobMenu() {
       this.mobMenu = false;

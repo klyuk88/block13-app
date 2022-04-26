@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="lesson_btn" v-if="!course.bought" @click="openBuy">
-        <span>КУПИТЬ ВЕСЬ КУРС - {{course.price.discountPrice / 100}} $</span>
+        <span>КУПИТЬ ВЕСЬ КУРС - <del v-if="course.price.discountPercent">$ {{course.price.price / 100}}</del> $ {{ course.price.discountPrice / 100 }}</span>
       </div>
     </div>
     <!-- lessons__left-bottom -->

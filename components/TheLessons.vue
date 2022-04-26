@@ -24,20 +24,6 @@
                 <p class="lessons__desc-text">
                   {{ lessonDescription }}
                 </p>
-                <!-- <div class="lessons__desc-parametres">
-                  <div class="lessons__desc-duration">
-                    <span class="lessons__desc-duration-name">
-                      Общее время курса:
-                    </span>
-                    <span class="lessons__desc-duration-sum"> {{courseTime}} </span>
-                  </div> -->
-                <!-- <div class="lessons__desc-topic">
-                    <span class="lessons__desc-topic-name">Тема: </span>
-                    <div class="lessons__desc-topic-list">
-                      {{courseTheme}}
-                    </div>
-                  </div> -->
-                <!-- </div> -->
               </div>
             </div>
             <!-- lessons__left-bottom -->
