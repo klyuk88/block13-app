@@ -149,7 +149,7 @@ export default {
     openBuy() {
       this.$store.commit("popup/setBuyData", {
         title: "Купить весь курс",
-        subtitle: "102 часа, 12 уроков",
+        subtitle: `${Math.floor(this.course.duration / 60 / 60)} часа, ${this.lessons.length} уроков`,
         price: this.course.price.discountPrice,
         id: this.course.id,
         type: 1,
