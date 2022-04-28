@@ -403,9 +403,9 @@
     grid-template-columns: 100%
     row-gap: 100px
     padding-bottom: 50px
-    @media screen and ( max-width: 576px )
-      row-gap: 90px
-      padding-bottom: 0
+  @media screen and ( max-width: 576px )
+    row-gap: 90px
+    padding-bottom: 0
 
 .beginner-content-helps-items
   margin-top: 12px
@@ -419,25 +419,24 @@
   margin-bottom: 24px
   position: relative
   z-index: 10
-
   @media screen and ( max-width: 960px )
     padding: 58px 24px
     min-height: 250px
-    @media screen and ( max-width: 576px )
-      padding: 58px 24px
-      min-height: 376px
+  @media screen and ( max-width: 576px )
+    padding: 58px 24px
+    min-height: 376px
 
-    &__about
-      color: #8F8E90
-      font-size: 15px
-      line-height: 150%
-      font-weight: 500
-      margin-top: 10px
-    &__title
-      font-weight: 600
-      line-height: 140%
-      text-transform: none
-      font-size: 18px
+.beginner-content-helps-item__about
+  color: #8F8E90
+  font-size: 15px
+  line-height: 150%
+  font-weight: 500
+  margin-top: 10px
+.beginner-content-helps-item__title
+  font-weight: 600
+  line-height: 140%
+  text-transform: none
+  font-size: 18px
 
 .beginner-content-helps-item:last-child
   margin-bottom: 0
@@ -447,28 +446,28 @@
   align-items: center
   justify-content: center
   margin-top: 20px
+  a
+    @media screen and ( max-width: 576px )
+      width: 100%
   @media screen and ( max-width: 576px )
     flex-direction: column
-    a
-      @media screen and ( max-width: 576px )
-        width: 100%
-    &__btn-white, &__btn-black
-      padding: 12px 0
-      background: #EFEFEF
-      border-radius: 20px
-      display: flex
-      align-items: center
-      justify-content: center
-      width: 144px
-      cursor: pointer
-      @media screen and ( max-width: 576px )
-        width: 100%
-    &__btn-black
-      background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%)
-      margin-left: 30px
-      @media screen and ( max-width: 576px )
-        margin: 0
-        margin-top: 15px
+.beginner-content-steps-item-btns__btn-white, .beginner-content-steps-item-btns__btn-black
+  padding: 12px 0
+  background: #EFEFEF
+  border-radius: 20px
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 144px
+  cursor: pointer
+  @media screen and ( max-width: 576px )
+    width: 100%
+.beginner-content-steps-item-btns__btn-black
+  background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%)
+  margin-left: 30px
+  @media screen and ( max-width: 576px )
+    margin: 0
+    margin-top: 15px
 
 .beginner-content-steps-item
   padding: 40px 70px
@@ -481,17 +480,17 @@
   @media screen and ( max-width: 576px )
     padding: 24px
 
-    &__about
-      color: #8F8E90
-      font-size: 15px
-      line-height: 150%
-      font-weight: 500
-      margin-top: 10px
-    &__title
-      font-weight: 600
-      line-height: 140%
-      text-transform: none
-      font-size: 18px
+.beginner-content-steps-item__about
+  color: #8F8E90
+  font-size: 15px
+  line-height: 150%
+  font-weight: 500
+  margin-top: 10px
+.beginner-content-steps-item__title
+  font-weight: 600
+  line-height: 140%
+  text-transform: none
+  font-size: 18px
 
 .beginner-content-steps-item:hover
   box-shadow: 0px 35px 33px -13px rgba(0, 0, 0, 0.4)
@@ -507,22 +506,22 @@
   margin-bottom: 8px
   transition: box-shadow .3s ease
   z-index: 1
-  &__title
-    font-size: 15px
-    font-weight: 500
-    line-height: 100%
-    &-btn
-      display: flex
-      align-items: center
-      justify-content: space-between
-      padding: 12px
-      width: 144px
-      border: 1px solid #3E3D3E
-      transition: all .1s ease
-      border-radius: 18px
-      cursor: pointer
-    &-btn:hover
-      border-color: #fff
+.beginner-video-lesson__title
+  font-size: 15px
+  font-weight: 500
+  line-height: 100%
+.beginner-video-lesson-btn
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 12px
+  width: 144px
+  border: 1px solid #3E3D3E
+  transition: all .1s ease
+  border-radius: 18px
+  cursor: pointer
+.beginner-video-lesson-btn:hover
+  border-color: #fff
 
 .beginner-video-lesson:last-child
   margin-bottom: 0
@@ -1566,6 +1565,11 @@ input::-webkit-credentials-auto-fill-button
     top: -25px
     opacity: 0.5
     cursor: pointer
+  iframe
+    @media screen and ( max-width: 567px )
+      max-width: 100%
+      height: 250px
+      
 
 .live-trading-tab, .private-club-tab
   position: relative
@@ -1617,11 +1621,9 @@ input::-webkit-credentials-auto-fill-button
   font-size: 18px
   padding-left: 10px
 
-
 .restore-balance img
   width: 20px
   height: auto
-
 
 .refreshBalanceAnim
   -webkit-animation: rotating 2s linear infinite

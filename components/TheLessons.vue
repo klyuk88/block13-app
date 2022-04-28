@@ -10,7 +10,7 @@
               <!-- 1-е состояние плеера -->
               <client-only v-if="lessons">
                 <vue-plyr ref="plyr">
-                  <video controls crossorigin playsinline>
+                  <video crossorigin playsinline>
                     <source size="" src="" type="video/mp4" />
                   </video>
                 </vue-plyr>
@@ -176,8 +176,13 @@ export default {
           type: "video/mp4",
           size: 1080,
         },
+        {
+          src: `${this.$config.API_URL}/video/${this.videoKey}.mp4`,
+          type: "video/mp4",
+          size: 720,
+        },
       ],
-      poster: `${this.$config.API_URL}/img/${this.lessons[0].logo}`
+      poster: `${this.$config.API_URL}/img/${this.lessons[0].logo}`,
     };
     //слушаем загрузку мета видео и получаем продолжительность видео
     this.player.on("loadedmetadata", (event) => {

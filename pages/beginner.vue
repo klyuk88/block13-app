@@ -307,7 +307,8 @@
     <div class="video-wrap" v-if="playVideo">
       <div class="video-content">
         <span class="close-video" @click="playVideo = false">Закрыть</span>
-        <client-only>
+         <iframe width="800" height="480" :src="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <client-only>
           <vue-plyr>
           <div class="plyr__video-embed">
             <iframe
@@ -318,7 +319,7 @@
             ></iframe>
           </div>
         </vue-plyr>
-        </client-only>
+        </client-only> -->
 
       </div>
     </div>
@@ -344,31 +345,31 @@ export default {
       video: "",
       videoLessons: [
         {
-          videoSrc: "https://youtu.be/ud6vp7NV4D0",
+          videoSrc: "https://www.youtube.com/embed/ud6vp7NV4D0",
           title: "Почему я начал торговать на OKX ",
         },
         {
-          videoSrc: "https://youtu.be/SduAgmikUl4",
+          videoSrc: "https://www.youtube.com/embed/SduAgmikUl4",
           title: "Как пополнять счёт, вывод денег, верификация",
         },
         {
-          videoSrc: "https://www.youtube.com/watch?v=ZiuvMTTI5Rk",
+          videoSrc: "https://www.youtube.com/embed/ZiuvMTTI5Rk",
           title: "Все о комиссиях. Кэшбек до 50%",
         },
         {
-          videoSrc: "https://youtu.be/00A2_S2SA9w",
+          videoSrc: "https://www.youtube.com/embed/00A2_S2SA9w",
           title: "Фьючерсы для новичков простыми словами",
         },
         {
-          videoSrc: "https://youtu.be/_WGVLcs98pw",
+          videoSrc: "https://www.youtube.com/embed/_WGVLcs98pw",
           title: "Стоп-лоссы и тейк-профиты на Binance",
         },
         {
-          videoSrc: "https://www.youtube.com/watch?v=tRw2pT5aCk0&t=1s",
+          videoSrc: "https://www.youtube.com/embed/tRw2pT5aCk0&t=1s",
           title: "Фьючерсы без риска ликвидации",
         },
         {
-          videoSrc: "https://youtu.be/W3yeESVDBHg",
+          videoSrc: "https://www.youtube.com/embed/W3yeESVDBHg",
           title: "Обзор биржи Binance. Обучение трейдингу",
         },
 

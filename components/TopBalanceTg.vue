@@ -21,7 +21,7 @@
           
           <button id="register-form__btn-close" @click="closePop"></button>
         </div>
-        <a href="http://t.me/Block13_pay_bot" target="_blank" rel="noopener noreferrer"><button class="register-form__btn btn"><span>Пополнить</span></button></a>
+        <a href="https://t.me/Block13_pay_bot" target="_blank" rel="noopener noreferrer"><button class="register-form__btn btn"><span>Пополнить</span></button></a>
       </div>
     </div>
   </div>

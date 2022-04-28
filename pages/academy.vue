@@ -57,19 +57,7 @@
         <div class="video-wrap" v-if="playVideo">
       <div class="video-content">
         <span class="close-video" @click="playVideo = false">Закрыть</span>
-        <client-only>
-          <vue-plyr>
-          <div class="plyr__video-embed">
-            <iframe
-              src="https://youtu.be/sQs4pOw8ltY"
-              allowfullscreen
-              allowtransparency
-              allow="autoplay"
-            ></iframe>
-          </div>
-        </vue-plyr>
-        </client-only>
-
+         <iframe width="800" height="480" src="https://www.youtube.com/embed/1ROazTHFJyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
 
