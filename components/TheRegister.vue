@@ -43,6 +43,11 @@
             :placeHolder="'Пароль'"
             v-model="inputs.password"
           />
+          <FormInput
+            :type="'text'"
+            :placeHolder="'Промокод'"
+            v-model="inputs.promocode"
+          />
 
           <button class="register-form__btn btn">
             <span>Зарегистрироваться</span>
@@ -107,6 +112,7 @@ export default {
         phone: null,
         password: null,
         news: true,
+        promocode: null
       },
     };
   },

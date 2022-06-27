@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="circle_customer_help_info_information_service_support_icon_123208">
+    <g id="Layer_2" transform="translate(3 3)">
+      <path d="M13 9C11.8954 9 11 8.10457 11 7C11 5.89544 11.8954 5 13 5C14.1046 5 15 5.89542 15 6.99999C15 8.10457 14.1046 9.00001 13 9L13 9Z" id="Shape" fill="#FFFFFF" stroke="none" />
+      <path d="M13 26C5.82031 26 1.14441e-05 20.1797 0 13C-1.04904e-05 5.82033 5.82026 2.38419e-05 13 0C20.1796 -2.28882e-05 26 5.82024 26 12.9999C26 20.1797 20.1797 26 12.9999 26L13 26ZM13 2C6.92487 2 2.00001 6.92486 2 13C1.99999 19.0751 6.92484 24 13 24C19.0751 24 24 19.0752 24 13.0001C24 6.92485 19.0751 1.99997 12.9999 2L13 2Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M13 21C11.8954 21 11 20.1046 11 19L11 13C11 12.2855 11.3812 11.6252 12 11.268C12.6188 10.9107 13.3812 10.9107 14 11.2679C14.6188 11.6252 15 12.2855 15 13L15 19C15 20.1046 14.1046 21 13 21L13 21Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    </g>
+    <g id="frame">
+      <path d="M0 0L32 0L32 32L0 32L0 0Z" id="Rectangle" fill="none" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

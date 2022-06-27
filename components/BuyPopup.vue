@@ -57,7 +57,7 @@ export default {
     },
     topBalance() {
         this.closePop()
-        this.$store.commit('openBalance')
+        this.$store.commit('popup/openTopBalanceTg')
     },
     async buyProduct() {
       await this.$store.dispatch("lessons/buyProduct", {

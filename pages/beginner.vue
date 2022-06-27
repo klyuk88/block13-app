@@ -9,7 +9,8 @@
       <div class="container">
         <div class="beginner_content_wrap">
           <div>
-            <h2 class="beginner-header__title">ИНСТРУКЦИЯ для НОВИЧКА</h2>
+            <!-- <h2 class="beginner-header__title">ИНСТРУКЦИЯ для НОВИЧКА</h2> -->
+            <h1 class="beginner-header__title">Криптовалюта инструкция</h1>
           </div>
           <div>
             <img src="~/assets/img/beginners/zeus.png" alt="" />
@@ -331,6 +332,17 @@
 <script>
 import zeusBg from "~/assets/img/beginners/numbers.png";
 export default {
+  middleware: "secretLock",
+   head: {
+    title: "Криптовалюта пошаговая инструкция как купить и заработать",
+    // meta: [
+    //   {
+    //     hid: "description",
+    //     name: "description",
+    //     content: "Home page description",
+    //   },
+    // ],
+  },
   data() {
     return {
       zeusBg,

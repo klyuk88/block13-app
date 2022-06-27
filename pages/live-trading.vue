@@ -14,7 +14,8 @@
               <div class="intro__video-btn course" @click="playVideo=true">
                 <img src="~/assets/img/intro/video-btn.svg" alt="video-btn" />
               </div>
-              <h1 class="intro__title section-title">Приобретайте опыт<br> и зарабатывайте одновременно</h1>
+              <!-- <h1 class="intro__title section-title">Приобретайте опыт<br> и зарабатывайте одновременно</h1> -->
+              <h1 class="intro__title section-title">Live Trading</h1>
               <span class="intro__subtitle"
                 >Торговля в режиме реал-тайм совместно с профессиональными трейдерами</span>
               <!-- <div class="intro__btns">
@@ -36,7 +37,7 @@
         <TheCards :triggers="triggers"/>
         <div class="private-lines">
          <nuxt-link to="/profile"> <button class="connect-btn">
-            <span>ПРИСОЕДИНИТСЯ</span>
+            <span>ПРИСОЕДИНИТЬСЯ</span>
           </button></nuxt-link>
         </div>
       </div>
@@ -71,6 +72,9 @@
 <script>
 import mainBannerBg from "~/assets/img/intro/live-trading-banner.jpg";
 export default {
+  head: {
+    title: 'Live Trading | Торговля криптовалютой онлайн с профессионалами'
+  },
   data() {
     return {
       mainBannerBg,

@@ -14,8 +14,8 @@
               <div class="intro__video-btn course" @click="playVideo = true">
                 <img src="~/assets/img/intro/video-btn.svg" alt="video-btn" />
               </div>
-              <h1 class="intro__title section-title">Не повторяйте действия<br> крупного игрока, а станьте им
-</h1>
+              <!-- <h1 class="intro__title section-title">Не повторяйте действия<br> крупного игрока, а станьте им</h1> -->
+              <h1 class="intro__title section-title">Crypto club</h1>
               <span class="intro__subtitle"
                 >Место для тех, кто готов выйти на совершенно иной уровень
               </span>
@@ -38,7 +38,7 @@
         <TheCards :triggers="triggers"/>
         <div class="private-lines">
           <nuxt-link to="/profile"><button class="connect-btn">
-            <span>ПРИСОЕДИНИТСЯ</span>
+            <span>ПРИСОЕДИНИТЬСЯ</span>
           </button></nuxt-link>
         </div>
       </div>
@@ -74,6 +74,9 @@
 <script>
 import mainBannerBg from "~/assets/img/intro/private-banner.jpg";
 export default {
+  head: {
+    title: 'Crypto club PRIVATE BLOCK13'
+  },
   data() {
     return {
       mainBannerBg,

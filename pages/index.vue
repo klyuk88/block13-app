@@ -15,7 +15,7 @@
                 <img src="~/assets/img/intro/video-btn.svg" alt="video-btn" />
               </div>
               <h1 class="intro__title section-title">
-                Искусство делать деньги
+                Обучение трейдингу
               </h1>
               <span class="intro__subtitle"
                 >Наша команда подобна биткоину - есть мы и все остальные</span
@@ -150,21 +150,37 @@
     <!-- //COURSES -->
     <TheInstruction />
 
-   
-
     <div class="video-wrap" v-if="playVideo">
       <div class="video-content">
         <span class="close-video" @click="playVideo = false">Закрыть</span>
-        <iframe width="800" height="480" src="https://www.youtube.com/embed/ciyL3RcY9Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          width="800"
+          height="480"
+          src="https://www.youtube.com/embed/ciyL3RcY9Hc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 import introBannerBg from "~/assets/img/intro/main-banner.jpg";
 export default {
+  head: {
+    title: "Обучение трейдингу криптовалют | Обучение трейдингу курсы",
+    // meta: [
+    //   {
+    //     hid: "description",
+    //     name: "description",
+    //     content: "Home page description",
+    //   },
+    // ],
+  },
+
   data() {
     return {
       playVideo: false,
@@ -193,8 +209,7 @@ export default {
       ],
     };
   },
-  mounted() {
-  },
+  mounted() {},
 };
 </script>
 

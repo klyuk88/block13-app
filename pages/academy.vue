@@ -12,9 +12,12 @@
               <div class="intro__video-btn course" @click="playVideo = true">
                 <img src="~/assets/img/intro/video-btn.svg" alt="video-btn" />
               </div>
-              <h1 class="intro__title section-title academy-page">
+              <!-- <h1 class="intro__title section-title academy-page">
                 Будьте на стороне<br />
                 крупного игрока
+              </h1> -->
+              <h1 class="intro__title section-title academy-page">
+                Crypto academy
               </h1>
               <span class="intro__subtitle">Прогрессивное обучение профессиональному трейдингу с использованием институциональных методик.</span>
               <div class="intro__btns">
@@ -67,6 +70,9 @@
 <script>
 import mainBannerBg from "~/assets/img/intro/academy-banner.jpg";
 export default {
+  head: {
+    title: 'Crypto academy BLOCK13'
+  },
   data() {
     return {
       mainBannerBg,

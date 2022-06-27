@@ -15,7 +15,7 @@ export default ({
   } else {
     store.commit('login/setToken', null)
     store.commit('lessons/setLessonsToken', null)
-    store.commit('login/setBalance', '')
+    store.commit('login/setBalance', 0)
   }
 
 }

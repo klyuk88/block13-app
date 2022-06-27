@@ -8,7 +8,7 @@
             <div class="balance">
               <span class="balance-title">Мой баланс:</span>
               <div class="balance-count" @click="topBalance">
-                <span class="balance-num" v-if="user.balance">$ {{ user.balance / 100 }}</span>
+                <span class="balance-num" v-if="user.balance !== null">$ {{ user.balance / 100 }}</span>
                 <span class="topup">Пополнить</span>
               </div>
             </div>
@@ -30,7 +30,7 @@
             </a>
             <a
               title="Тех поддержка"
-              href="https://t.me/RobertR13"
+              href="https://t.me/block13help"
               class="profile-chat profile-icon"
               target="_blank"
             >
@@ -40,6 +40,16 @@
         </div>
       </div>
     </section>
+    <section class="discont-message" v-if="user.discount">
+      <div class="container">
+        <div class="discont-message-wrap">
+          <img src="~/assets/img/info.svg" alt="" class="discont-message-image">
+          <p class="discont-message-text">Cкидка используется единоразово, только на один продукт</p>
+        </div>
+          
+      </div>
+    </section>
+
 
     <ProfileBlocks />
 
