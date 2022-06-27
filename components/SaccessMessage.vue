@@ -1,6 +1,6 @@
 <template>
        <div class="saccess_alert_content">
-        <img src="~/assets/img/check_send.svg" alt="" class="saccess_image"/>
+        <img src="~/assets/img/check_send.svg" alt="check-icon" class="saccess_image"/>
         <div class="register-form__title">
           {{message}}
         </div>

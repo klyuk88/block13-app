@@ -41,7 +41,7 @@
               </div>
               <div class="footer__social-right">
                 <a href="https://accounts.binance.com/ru/register?ref=WHWJIJB7" class="footer__social-link binance"
-                  style="background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%);" target="_blan">Binance</a>
+                  style="background: linear-gradient(95.45deg, #3C3E40 0%, #2F3133 104.2%);" target="_blank">Binance</a>
                 <a href="https://www.youtube.com/channel/UCV-aFLWIUc6tp3UWLpwRuNA" class="footer__social-link youtube" style="background: #EFEFEF;" target="_blank">YouTube</a>
               </div>
             </div>

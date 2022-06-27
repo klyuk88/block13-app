@@ -16,7 +16,7 @@
       <img
         v-else
         src="~/assets/img/ci_check.svg"
-        alt=""
+        alt="check-icon"
         class="btn_buy_check"
       />
     </button>

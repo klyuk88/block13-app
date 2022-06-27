@@ -38,7 +38,7 @@
             :readOnly="true"
             v-model="userId"
             />
-            <img src="~/assets/img/copy.svg" alt="" class="user-id-warp-copy-icon" v-clipboard:copy="userId" v-clipboard:success="clipboardSuccessHandler" :class="{copied: isCopied}">
+            <img src="~/assets/img/copy.svg" alt="copy-icon" class="user-id-warp-copy-icon" v-clipboard:copy="userId" v-clipboard:success="clipboardSuccessHandler" :class="{copied: isCopied}">
             </div>
            
 

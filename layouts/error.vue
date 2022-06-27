@@ -9,7 +9,7 @@
         <p class="error-text">Что-то пошло не так! Страница, которую вы запрашиваете, не существует.
             Возможно, введен некорректный адрес или страница была удалена.</p>
     </div>
-    <img src="~/assets/img/404.svg" alt="" class="error-image">
+    <img src="~/assets/img/404.svg" alt="error_404_icon" class="error-image">
 
 </section>
 

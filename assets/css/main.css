@@ -147,7 +147,7 @@ h3 {
 html * {
   scrollbar-color: #212328 #212328;
   /* «цвет ползунка» «цвет полосы скроллбара» */
-  scrollbar-width: 12px | none;
+  /* scrollbar-width: 12px; */
 }
 *::-webkit-scrollbar,
 html *::-webkit-scrollbar {
@@ -220,7 +220,7 @@ select {
   border-radius: 50%;
   line-height: 48px;
   border: 2px solid transparent;
-  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+  box-shadow: 0px 0px 10px 3px rgba(108, 98, 98, 0.2);
 }
 #back-top a {
   display: flex;
@@ -275,7 +275,7 @@ select {
 .btn span {
   background: linear-gradient(103.31deg, #B3854D 5.67%, #F3D7AF 28.06%, #C6A47C 85.27%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   font-weight: 700;
 }
@@ -317,8 +317,8 @@ select {
   font-size: 1.06rem;
   color: #fff;
   background-image: none;
-  -webkit-text-fill-color: unset;
-  -webkit-background-clip: unset;
+  /* -webkit-text-fill-color: unset;
+  -webkit-background-clip: unset; */
 }
 .instruction__btn:hover {
   background: rgba(0, 0, 0, 0.09);
@@ -420,7 +420,7 @@ select {
 .header__inner .header-nav .header__nav-list .header__nav-item:last-child li:hover a {
   background-image: linear-gradient(90deg, #B2854D 0%, #F3D7AF 28.13%, #C6A47C 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 @media (max-width: 960px) {
   .header__inner .header-nav .header__nav-list .header__nav-item:nth-child(1) {
@@ -442,7 +442,7 @@ select {
 .header__inner .registration__link:hover {
   background-image: linear-gradient(90deg, #B2854D 0%, #F3D7AF 28.13%, #C6A47C 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 @media (max-width: 960px) {
   .header__inner .registration {
@@ -683,7 +683,7 @@ select {
 .advantages__icon-title {
   background-image: linear-gradient(90deg, #B2854D 0%, #F3D7AF 28.13%, #C6A47C 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   font-size: 2.4rem;
   line-height: 1;
   font-weight: 800;
@@ -699,7 +699,7 @@ select {
   text-transform: uppercase;
   background-image: linear-gradient(90deg, #B2854D 0%, #F3D7AF 28.13%, #C6A47C 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 @media (max-width: 575px) {
   .advantages__icon-desc {
@@ -1112,7 +1112,7 @@ select {
   height: 470px;
   scrollbar-color: #212328 #212328;
   /* «цвет ползунка» «цвет полосы скроллбара» */
-  scrollbar-width: 12px | none;
+  /* scrollbar-width: 12px; */
 }
 .lessons__themes::-webkit-scrollbar-thumb {
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -1169,7 +1169,7 @@ select {
 }
 
 .lessons__theme-arrow {
-  transition: transform 0.3 ease;
+  transition: transform 0.3s ease;
 }
 
 .lessons__theme.active .lessons__theme-arrow {
@@ -1269,7 +1269,7 @@ select {
 }
 .lessons__questions-btn:last-child {
   background-image: none;
-  -webkit-background-clip: unset;
+  /* -webkit-background-clip: unset; */
   -webkit-text-fill-color: #fff;
   border: 1px solid #fff;
 }

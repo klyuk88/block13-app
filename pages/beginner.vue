@@ -13,7 +13,7 @@
             <h1 class="beginner-header__title">Криптовалюта инструкция</h1>
           </div>
           <div>
-            <img src="~/assets/img/beginners/zeus.png" alt="" />
+            <img src="~/assets/img/beginners/zeus.png" alt="zeuz" />
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
                 <div class="beginner-content-steps-item-btns">
                   <a href="https://t.me/+kEoUT65cjTFiM2Qy" target="_blank">
                   <div class="beginner-content-steps-item-btns__btn-white">
-                    <img src="~/assets/img/beginners/tg-logo.svg" alt="" />
+                    <img src="~/assets/img/beginners/tg-logo.svg" alt="telegram_logo" />
                   </div>
                   </a>
                 </div>
@@ -62,14 +62,14 @@
                 <div class="beginner-content-steps-item-btns">
                   <a href="https://www.okx.com/join/14332324" target="_blank">
                     <div class="beginner-content-steps-item-btns__btn-white">
-                      <img src="~/assets/img/beginners/first-btn.svg" alt="" />
+                      <img src="~/assets/img/beginners/first-btn.svg" alt="okx" />
                     </div>
                   </a>
                   <a href="https://accounts.binance.com/ru/register?ref=W5IYJ4BK" target="_blank">
                     <div class="beginner-content-steps-item-btns__btn-black">
                       <img
                         src="~/assets/img/beginners/binance.svg"
-                        alt=""
+                        alt="binance"
                       /></div
                   ></a>
                 </div>
@@ -102,13 +102,13 @@
                     class="beginner-video-lesson-btn"
                     @click="openVideo(index)"
                   >
-                    <img src="~/assets/img/beginners/youtube.svg" alt="" />
+                    <img src="~/assets/img/beginners/youtube.svg" alt="youtube_logo" />
                     <span>Смотреть</span>
                   </div>
                 </div>
                 <img
                   src="~/assets/img/beginners/decor-2.png"
-                  alt=""
+                  alt="decor_element"
                   class="beginner-decor-2"
                 />
               </div>
@@ -129,7 +129,7 @@
                     <nuxt-link to="/academy">
                       <div class="beginner-content-steps-links-btn">
                       Подробнее
-                      <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                      <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                     </div>
                     </nuxt-link>
 
@@ -151,7 +151,7 @@
                     <nuxt-link to="/live-trading">
                      <div class="beginner-content-steps-links-btn">
                       Подробнее
-                      <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                      <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                     </div>
                     </nuxt-link>
 
@@ -172,7 +172,7 @@
                     <nuxt-link to="/private-club">
                      <div class="beginner-content-steps-links-btn">
                       Подробнее
-                      <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                      <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                     </div>
                     </nuxt-link>
 
@@ -180,7 +180,7 @@
                 </div>
                 <img
                   src="~/assets/img/beginners/decor-3.1.png"
-                  alt=""
+                  alt="decor_element"
                   class="beginner-decor-3"
                 />
               </div>
@@ -239,7 +239,7 @@
                   </p>
                   <nuxt-link to="/academy"><div class="beginner-content-steps-links-btn">
                     Подробнее
-                    <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                    <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                   </div></nuxt-link>
                 </div>
               </div>
@@ -259,7 +259,7 @@
                   <nuxt-link to="/live-trading">
                    <div class="beginner-content-steps-links-btn">
                     Подробнее
-                    <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                    <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                   </div>
                   </nuxt-link>
 
@@ -279,14 +279,14 @@
                   <nuxt-link to="/private-club">
                   <div class="beginner-content-steps-links-btn">
                     Подробнее
-                    <img src="~/assets/img/beginners/arrow.svg" alt="" />
+                    <img src="~/assets/img/beginners/arrow.svg" alt="arrow_icon" />
                   </div>
                   </nuxt-link>
                 </div>
               </div>
               <img
                 src="~/assets/img/beginners/decor-3.1.png"
-                alt=""
+                alt="decor_elemet"
                 class="beginner-decor-3"
               />
             </div>
@@ -295,11 +295,11 @@
         </div>
       </div>
       <!-- декор элементы -->
-      <img src="~/assets/img/decor-4.png" alt="" class="decor-poligon" />
-      <img src="~/assets/img/beginners/decor-mob.png" alt="" class="beginner-decor-mob-1">
-      <img src="~/assets/img/beginners/mob-decor-5.png" alt="" class="beginner-decor-mob-2">
-      <img src="~/assets/img/beginners/decor-mob-6.png" alt="" class="beginner-decor-mob-3">
-      <img src="~/assets/img/beginners/decor-mob-4.png" alt="" class="beginner-decor-mob-4">
+      <img src="~/assets/img/decor-4.png" alt="decor_element" class="decor-poligon" />
+      <img src="~/assets/img/beginners/decor-mob.png" alt="decor_element" class="beginner-decor-mob-1">
+      <img src="~/assets/img/beginners/mob-decor-5.png" alt="decor_element" class="beginner-decor-mob-2">
+      <img src="~/assets/img/beginners/decor-mob-6.png" alt="decor_element" class="beginner-decor-mob-3">
+      <img src="~/assets/img/beginners/decor-mob-4.png" alt="decor_element" class="beginner-decor-mob-4">
       <div class="beginner_step_decor"></div>
       <div class="decor-round"></div>
        <!-- декор элементы -->

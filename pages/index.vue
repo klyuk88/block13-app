@@ -61,7 +61,7 @@
             <div class="courses__item-link">
               <img
                 src="~/assets/img/academy-main.jpg"
-                alt=""
+                alt="academy"
                 class="courses__item-link-img"
               />
             </div>
@@ -92,7 +92,7 @@
             <div class="courses__item-link">
               <img
                 src="~/assets/img/live-trading-main.jpg"
-                alt=""
+                alt="live_trading"
                 class="courses__item-link-img"
               />
             </div>
@@ -120,7 +120,7 @@
             <div class="courses__item-link">
               <img
                 src="~/assets/img/trigger-3.jpg"
-                alt=""
+                alt="triggger_icon"
                 class="courses__item-link-img"
               />
             </div>

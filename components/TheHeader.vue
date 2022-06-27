@@ -5,8 +5,7 @@
       <div class="container">
         <div class="header__inner">
           <nuxt-link to="/" class="header__logo-link">
-            <!-- <img src="~/assets/img/bloсk13.png" alt="" /> -->
-            <img src="~/assets/img/logo.png" alt="" />
+            <img src="~/assets/img/logo.png" alt="logo" />
           </nuxt-link>
 
           <!-- Navigation -->
@@ -53,7 +52,7 @@
                 Разделы
                 <img
                   src="~/assets/img/header/arrow-header.svg"
-                  alt=""
+                  alt="arrow-icon"
                   :class="{ active: mobSubMenu }"
                 />
               </span>
@@ -73,9 +72,9 @@
 
           <!-- Burger -->
           <button class="menu" id="toggle" @click="mobMenuShow">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
           </button>
 
           <!-- MOBILE-MENU -->
@@ -88,7 +87,7 @@
               />
               <img
                 src="~/assets/img/modal/btn-close.svg"
-                alt=""
+                alt="close_icon"
                 @click="closeMobMenu"
               />
             </div>
@@ -150,7 +149,7 @@
                 >МОЙ АККАУНТ
                 <img
                   src="~/assets/img/header/arrow.svg"
-                  alt=""
+                  alt="arrow-icon"
                   class="header_login_account__arrow"
                 />
               </span>

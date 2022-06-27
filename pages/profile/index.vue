@@ -18,7 +18,7 @@
               class="restore-balance profile-icon"
               @click.prevent="refreshBalance"
             >
-              <img src="~/assets/img/refresh-icon.svg" alt="" :class="{'refreshBalanceAnim': refreshBalanceAnim}" />
+              <img src="~/assets/img/refresh-icon.svg" alt="refresh_icon" :class="{'refreshBalanceAnim': refreshBalanceAnim}" />
             </a>
             <a
               title="Настройки"
@@ -26,7 +26,7 @@
               class="profile-settings profile-icon"
               @click.prevent="openSettings"
             >
-              <img src="~/assets/img/profile/settings.svg" alt="" />
+              <img src="~/assets/img/profile/settings.svg" alt="settings_icon" />
             </a>
             <a
               title="Тех поддержка"
@@ -34,7 +34,7 @@
               class="profile-chat profile-icon"
               target="_blank"
             >
-              <img src="~/assets/img/profile/chat.svg" alt="" />
+              <img src="~/assets/img/profile/chat.svg" alt="chat_icon" />
             </a>
           </div>
         </div>
@@ -43,7 +43,7 @@
     <section class="discont-message" v-if="user.discount">
       <div class="container">
         <div class="discont-message-wrap">
-          <img src="~/assets/img/info.svg" alt="" class="discont-message-image">
+          <img src="~/assets/img/info.svg" alt="info_icon" class="discont-message-image">
           <p class="discont-message-text">Cкидка используется единоразово, только на один продукт</p>
         </div>
           
@@ -81,13 +81,13 @@
     <img
       v-if="currentIndex === 1"
       src="~/assets/img/live-trade-lk.png"
-      alt=""
+      alt="live_trading"
       class="profile-tabs-bg"
     />
     <img
       v-if="currentIndex === 2"
       src="~/assets/img/profile/club-tab-bg.png"
-      alt=""
+      alt="private_club"
       class="profile-tabs-bg"
     />
   </div>

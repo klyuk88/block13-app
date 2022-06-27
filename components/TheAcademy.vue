@@ -6,7 +6,7 @@
 
     <img
       src="~/assets/img/profile/arrow.svg"
-      alt=""
+      alt="arrow-icon"
       class="profile_course_block_arrow"
     />
     <!-- profile_course_blocks -->
@@ -69,7 +69,7 @@
         >
           <img
             :src="`${$config.API_URL}/img/${item.logo}`"
-            alt=""
+            :alt="`${item.logo}`"
             class="profile_video_lessons_grid_item__image"
             v-scroll-to="'#video-block'"
           />
@@ -80,12 +80,12 @@
             <div class="blocked_overlay_content">
               <img
                 :src="`${$config.API_URL}/img/${item.logo}`"
-                alt=""
+                alt="item.logo"
                 class="blocked_overlay_content__bg"
               />
               <img
                 src="~/assets/img/profile/lock.svg"
-                alt=""
+                alt="lock-icon"
                 class="block_content_icon"
               />
             </div>
@@ -108,10 +108,10 @@
         <img
           v-if="item.bought || item.price.price === 0"
           src="~/assets/img/profile/play-gold.svg"
-          alt=""
+          alt="play-icon"
           class="profile-video-item-mob-lock"
         />
-        <img v-else src="~/assets/img/profile/lock.svg" alt="" />
+        <img v-else src="~/assets/img/profile/lock.svg" alt="lock-icon" />
       </div>
     </div>
     <div class="lesson_btn mob-btn-buy" v-if="!course.bought" @click="openBuy">

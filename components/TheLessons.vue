@@ -50,7 +50,7 @@
                     {{ index + 1 }}. {{ lesson.name }}
                     <span class="lessons__theme-arrow"
                     >
-                      <img src="~/assets/img/lessons/lesson-arrow.svg" alt="" />
+                      <img src="~/assets/img/lessons/lesson-arrow.svg" alt="arrow-icon" />
                     </span>
                     <!-- <span class="lessons__theme-progress">{{
                       percentProgress + "%"
@@ -79,7 +79,7 @@
               <div class="lesson_btn">
                 <img
                   src="~/assets/img/ci_check.svg"
-                  alt=""
+                  alt="check-icon"
                   class="btn_buy_check"
                   v-if="course.bought"
                 />

@@ -51,7 +51,7 @@
       <img
         v-else
         src="~/assets/img/ci_check.svg"
-        alt=""
+        alt="check_icon"
         class="btn_buy_check"
       />
     </button>

@@ -6,7 +6,7 @@
 
     <img
       src="~/assets/img/profile/arrow.svg"
-      alt=""
+      alt="arrow-icon"
       class="profile_course_block_arrow"
     />
     <div class="live_trading_grid">

@@ -46,7 +46,7 @@
       <img
         v-if="user.tgChannel"
         src="~/assets/img/ci_check.svg"
-        alt=""
+        alt="check-icon"
         class="btn_buy_check"
       />
       <span v-else>Приобрести</span>

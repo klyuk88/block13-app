@@ -23,7 +23,7 @@ export default {
             }
         ],
         link: [{
-            rel: 'icon',
+            rel: 'apple-touch-icon',
             type: 'image/png',
             href: '/favicon.png'
         }]
